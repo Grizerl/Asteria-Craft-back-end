@@ -1,0 +1,77 @@
+.shop_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--theme-background-shop);
+    padding-left: 25vh;
+    
+}
+
+.shop_content {
+    flex: 1 1 calc(33.333% - 10px);
+    margin: 5px; 
+    box-sizing: border-box; 
+}
+/* CSS */
+.img_small {
+    width: 60%; /* Adjust the size as needed */
+}
+
+.img_medium {
+    width: 60%; /* Adjust the size as needed */
+}
+
+.img_large {
+    width: 60%; /* Adjust the size as needed */
+}
+.shop_title
+{
+    font-size: 15.5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+    width: 50%;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: var(--theme-btn3-background);
+}
+.shop_price
+{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+.price_a
+{
+    color: #e6963d;
+    transition:  color .25s;
+    text-decoration: underline;
+}
+.price_a:hover
+{
+    text-decoration: none;
+    color:yellowgreen;
+}
+.paginat
+{
+    padding-top: 3vh;
+    padding-left: 32vh;
+    margin-bottom: 6vh;
+    font-size: x-large;
+    background: #272524;
+    color: var(--theme-btn3-background);
+}
+
+:root{
+    --theme-button-background: #6610f2;
+    --theme-btn1-background: #667ed1;
+    --theme-background-shop:#272524;
+    --theme-btn2-background: #8c58f8;
+    --theme-btn3-background: #fff;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+}

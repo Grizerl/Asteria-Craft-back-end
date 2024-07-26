@@ -1,0 +1,95 @@
+.show_header
+{
+    display: flex;
+    align-items: center;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vh;
+    line-height: 1.6;
+}
+.good_image
+{
+    margin-left: 11vh;
+}
+.good_name
+{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #fff;
+}
+.price_title
+{
+    display: inline;
+    padding-right: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #6c6a74;    
+}
+.good_price
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #e95a5a;
+    margin-left: 16px;
+    text-decoration: line-through;
+}
+.good_new_price
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #44a038;
+    margin-top: 12px;
+}
+.in_stock_container
+{
+    margin-top: 20px;
+}
+.in_stock_container span
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #44a038;
+    margin-left: 5px;
+}
+.availability
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #6c6a74;    
+}
+.good_text
+{
+    width: 80%;
+    box-sizing: border-box;
+    hyphens: manual;
+}
+.good_text p
+{
+    font-size: smaller;
+}
+.good_quantity
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cart_button
+{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 57px;
+    color: #e6963d;
+    background: none;
+    width: 178px;
+    height: 61px;
+    text-align: center;
+    border: solid 2px #e6963d;
+    overflow: hidden;
+}
+.cart_button:hover
+{
+    color:#fff;
+    border: 1px solid #fff;
+}

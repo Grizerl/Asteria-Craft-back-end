@@ -1,0 +1,62 @@
+.changelog_header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #272524;
+}
+.changelog_container{
+    position: relative;
+    color: #fff;
+    width: 71%;
+    background: #101010;
+}
+.changelog_title{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
+}
+.changelog_content
+{
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    margin-top: 1rem;
+}
+.changelog_h2
+{
+    color: var(--theme-btn3-background);
+    font-weight: 700;
+    width: 100%;
+    padding: 6px 0px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #606060;
+    transition: color .25s;
+    transition: background .25s;
+}
+.changelog_h2:hover
+{
+    background: var(--theme-btn3-background);
+    color: var(--theme-btn1-background);
+}
+.changelog_p_2{
+    font-size: 1.29rem;
+    color: var(--theme-btn1-background);
+}
+.changelog_pag
+{
+    font-size: x-large;
+    margin-left: 4vh;
+    margin-top: 5vh;
+}
+
+
+:root{
+    --theme-button-background: #6610f2;
+    --theme-btn1-background: #667ed1;
+    --theme-btn2-background: #8c58f8;
+    --theme-btn3-background: #fff;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+}
